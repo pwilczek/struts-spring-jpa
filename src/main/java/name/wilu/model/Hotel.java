@@ -1,4 +1,4 @@
-package name.wilu;
+package name.wilu.model;
 
 import javax.persistence.*;
 
