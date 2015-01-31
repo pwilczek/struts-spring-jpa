@@ -10,11 +10,7 @@ import java.sql.SQLException;
 @Action("hotels")
 public class Hotels extends ActionSupport {
 
-    @Autowired
-    DataSource ds;
-
     public String execute() throws SQLException {
-        ds.getConnection();
         return ActionSupport.SUCCESS;
     }
 
