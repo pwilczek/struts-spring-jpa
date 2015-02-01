@@ -19,7 +19,7 @@ public class HotelManager extends ActionSupport implements ModelDriven<Hotel> {
     //
     private Hotel hotel = new Hotel();
 
-    public String execute() throws SQLException {
+    public String execute() {
         return SUCCESS;
     }
 
